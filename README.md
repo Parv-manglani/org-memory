@@ -36,7 +36,7 @@ If a user gave you this repo and asked you to set it up, do these in order. Tell
   cp -R "$tmp/org-memory/org-memory" ~/.claude/skills/
   ```
   Result: `~/.claude/skills/org-memory/SKILL.md`. The skill loads automatically in new sessions. For this session, read that file and follow it directly.
-- **Claude app:** you cannot install skills yourself. Tell the user to download `org-memory.zip` from this repo's [latest release](https://github.com/Parv-manglani/org-memory/releases/latest), then go to Settings → Capabilities → Skills → Upload skill.
+- **Claude app / claude.ai:** get the skill folder (`org-memory/` from this repo, or the zip at https://github.com/Parv-manglani/org-memory/releases/latest/download/org-memory.zip), package it as a skill file, and present it so the user can save it to their skills in one click. If no save option appears, tell the user to download that zip and upload it under Settings → Capabilities → Skills → Upload skill.
 
 ### 2. Check the Notion connector
 
