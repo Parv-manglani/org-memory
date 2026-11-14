@@ -42,6 +42,8 @@ If a user gave you this repo and asked you to set it up, do these in order. Tell
 
 Try a Notion search for the **Org Learnings** database. If Notion tools are missing or the database is not found, give the user the steps below and wait until they confirm it is connected.
 
+The user needs access to the org workspace first: accept the Notion invite sent to their email, and sign in with that same email. When Notion asks which workspace to connect, they must pick the org workspace, not a personal one. Writing needs "Can edit" access or higher on the Org Learnings database.
+
 - **Claude app:** Settings → Connectors → Notion → Connect, signed in to the org workspace.
 - **Claude Code:**
   ```bash

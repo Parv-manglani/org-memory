@@ -17,7 +17,7 @@ Always write to this data source. Never create a second database.
 
 ## Author identity
 
-The Notion account is shared, so record the person explicitly. Look for a line `Org-memory author: Name` in the user's CLAUDE.md or preferences. If absent, ask once before pushing. Set Author name on every new page and in every Log entry.
+Members may connect with their own invited Notion account or a shared one, so record the person explicitly. Look for a line `Org-memory author: Name` in the user's CLAUDE.md or preferences. If absent, ask once before pushing. Set Author name on every new page and in every Log entry.
 
 ## Schema
 
