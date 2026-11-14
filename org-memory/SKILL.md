@@ -56,7 +56,7 @@ Moves what this Claude already remembers into Org Learnings. Same pipeline as Pu
 
 1. **Inventory** the memory you can read. Read only; never edit or delete local memory.
    - **Claude Code:** `~/.claude/CLAUDE.md`; every `~/.claude/projects/*/memory/*.md` (each file is one memory; `MEMORY.md` is only an index); the `CLAUDE.md` / `CLAUDE.local.md` of the current project. Use the folder name under `projects/` to infer the Project.
-   - **Claude app:** the memory and preferences visible in your context. List what you remember; don't invent.
+   - **Claude app:** the memory and preferences visible in your context. If you can search past chats, also search them by the user's projects and topics, a few searches at a time, and treat each useful finding as a candidate. List what you actually find; don't invent.
    - Tell the user how many sources and items you found before going further.
 2. **Filter** to org-worthy learnings: decisions + rationale, gotchas, failures, domain/customer facts, reusable procedures.
    - Skip personal preferences about how Claude should talk or behave (tone, language, formatting), the user's private details, transient task state, and anything that only restates code or docs.
